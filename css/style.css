@@ -48,15 +48,15 @@ section h2 {
     font-size: 2.5rem;
     margin: 0;
     padding: 0;
-    border: solid 3px rgb(78, 245, 1);
+    /* border: solid 3px rgb(78, 245, 1); */
 }
 
 
 /* Initial mobile layout: a series of images stacked on top of each other with the figure caption over the image. */
 
 ul {
-    border: solid 3px rgb(38, 0, 255);
-    margin: 0;
+    /* border: solid 3px rgb(38, 0, 255); */
+    margin: .5rem 0;
     padding: 0;
     list-style: none;
     display: flex;
@@ -69,28 +69,39 @@ li {
     padding: 0;
     width: 100%;
     text-align: center;
-    border: solid 2px purple;
-    flex-basis: 100%;
+    /* border: solid 2px purple; */
+    /* flex-basis: 100%; */
 }
 
 figure {
     margin: 0;
     padding: 0;
     width: 100%;
-    border: solid yellow 1px;
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    /* border: solid var(--color1) 1px; */
 }
 
 figcaption {
-    background-color: #f3f3f334;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #fdfdfd86;
     text-align: left;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 figcaption a {
     color: black;
+    font-weight: 645;
     text-decoration: none;
 }
 
 img {
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 
