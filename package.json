@@ -1,0 +1,20 @@
+{
+  "name": "the-joy-of-grids",
+  "version": "1.0.0",
+  "description": "- Playing around with CSS grids.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anderson-ca/the-joy-of-grids.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderson-ca/the-joy-of-grids/issues"
+  },
+  "homepage": "https://github.com/anderson-ca/the-joy-of-grids#readme"
+}

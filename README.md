@@ -1,2 +1,2 @@
-# Responsive Animated CSS Grid Examples
-- Playing around with CSS grids.
+# CSS Grid and Flexbox for responsive layouts
+Learn the essential CSS layout techniques for building responsive, beautiful web applications. You'll get hands-on practice using CSS Grid for two-dimensional, grid-based layouts and Flexbox for styling one-directional flow. You'll master using these techniques together along with responsive images to build real-world, responsive web layouts!
