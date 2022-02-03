@@ -55,21 +55,23 @@ section h2 {
 /* Initial mobile layout: a series of images stacked on top of each other with the figure caption over the image. */
 
 ul {
-    /* border: solid 3px rgb(38, 0, 255); */
+    border: solid 3px rgb(38, 0, 255);
     margin: .5rem 0;
     padding: 0;
     list-style: none;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    gap: 4%;
 }
 
 li {
     margin: 0;
     padding: 0;
+    margin-bottom: 2%;
     width: 100%;
     text-align: center;
-    /* border: solid 2px purple; */
+    border: solid 2px purple;
     /* flex-basis: 100%; */
 }
 
@@ -108,7 +110,21 @@ img {
 
 /* At this breakpoint, transition to 2 figures per line */
 
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+    ul {
+        padding: 0;
+        margin: 0;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 2%;
+    }
+    li {
+        padding: 0;
+        margin: 0;
+        flex-basis: 37%;
+        margin-bottom: 2%;
+    }
+}
 
 
 /* At this breakpoint, transition to 3 figures per line */
