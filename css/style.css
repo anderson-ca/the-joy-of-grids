@@ -168,6 +168,9 @@ figcaption a {
     section li {
         flex-basis: 49.5%;
     }
+    figure img {
+        object-position: 0;
+    }
 }
 
 
