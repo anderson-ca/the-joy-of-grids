@@ -171,6 +171,11 @@ figcaption a {
     figure img {
         object-position: 0;
     }
+    .mission {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 4%;
+    }
 }
 
 
